@@ -1,0 +1,26 @@
+
+
+body {
+    background: #3e6e11;
+}
+
+/* see the invisible */
+* {
+    outline: 2px dotted gray;
+  }
+  
+  main {
+    background: lightgray;
+    
+  /*  roughly 640pixels  */
+    width: 40em;
+    
+    /*  fixed center  */
+  /*   margin: 0 auto; */
+    margin-inline: auto;
+  }
+  
+  main img {
+    width: 100%;
+    display: block;
+  }
