@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Diagnostic */
-* {
+/* {
   outline: 1px solid peachpuff;
-}
+} */
 
 /* Style Tile with css variables */
 :root {
