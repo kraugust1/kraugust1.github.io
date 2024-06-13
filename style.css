@@ -9,6 +9,8 @@
 /* Style Tile with css variables */
 :root {
   --color1: lightsalmon;
+  --color2: #7A3A88;
+  --color3: #D9B7E1;
   --font1: "Mulish", sans-serif;
 }
 
@@ -33,7 +35,7 @@ article:hover {
   background-image: none;
 }
 
-h1, p, p1 {
+h1, p {
   animation-name: fadeInUpBig;
   animation-duration: 1s;
   animation-iteration-count 1;
@@ -41,15 +43,16 @@ h1, p, p1 {
   animation-fill-mode: backwards;
 }
 
-p, p1 {
+p {
+  width: 400px;
   animation-delay: 3s;
 }
 
 
-.p1 {
+ /* .p1 {
   background: red;
   width: 600px;
-}
+} */
 
 /* Article */
 article {
@@ -76,8 +79,10 @@ aside img {
 /* Drop Cap */
 p span {
   float: left; 
-  font-size: 5em;
-  color: var(--color1);
+  font-size: 2em;
+  color: var(--color2);
+  border: solid 3px var(--color3);
+  border-radius: 6px;
 }
 
 
